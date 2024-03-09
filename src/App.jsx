@@ -1,10 +1,15 @@
 import './App.css'
+import CounterComponent from './components/CounterComponents'
+import TodoList from './components/TodoList'
 
 function App() {
 
   return (
     <>
-    <div>Mobx start</div>
+    <div className="App">
+      <CounterComponent />
+      <TodoList />
+    </div>
     </>
   )
 }
